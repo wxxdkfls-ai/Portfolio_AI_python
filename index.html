@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정아린 · Arin Jung — Design & Technology</title>
+  <meta name="description" content="부산대학교 디자인앤테크놀로지전공 정아린의 포트폴리오. 웹 UI, 모바일 UI, HCI 감성 연구 프로토타입을 소개합니다." />
+  <meta name="theme-color" content="#FAF8F6" />
+  <meta property="og:title" content="정아린 · Arin Jung" />
+  <meta property="og:description" content="부산대학교 디자인앤테크놀로지전공. 디자인으로 생각하고, 코드로 만듭니다." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237A1B2E'/><text x='50' y='69' font-family='Arial,sans-serif' font-size='52' font-weight='600' fill='%23FAF8F6' text-anchor='middle'>A</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="정아린, 맨 위로">
+        <span class="brand-name">정아린</span>
+        <span class="brand-en">ARIN JUNG</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="주요 섹션">
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-end">
+        <a class="nav-mail" href="mailto:wxxdkfls@gmail.com">wxxdkfls@gmail.com</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="메뉴 열기">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">PNU · Design &amp; Technology</p>
+          <h1>
+            <span class="hero-name">정아린</span>
+            <span class="hero-en">ARIN JUNG</span>
+          </h1>
+          <p class="hero-tagline">디자인으로 생각하고,<br />코드로 만듭니다.</p>
+          <p class="hero-sub">
+            부산대학교 디자인앤테크놀로지전공에서 인터페이스와 사용자 경험을 공부합니다.
+            화면을 설계하고, 직접 코드로 만들어 확인하는 일을 좋아합니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              프로젝트 보기 <span aria-hidden="true">↗</span>
+            </a>
+            <a class="btn btn-ghost" href="#contact">연락하기</a>
+          </div>
+        </div>
+
+        <div class="hero-portrait">
+          <div class="portrait" role="img" aria-label="프로필 이미지 자리 (사람 아이콘)">
+            <div class="avatar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="8.2" r="4.2" />
+                <path d="M4.2 20.6c0-4.1 3.5-7.4 7.8-7.4s7.8 3.3 7.8 7.4" />
+              </svg>
+            </div>
+            <span class="portrait-tag">PNU · Design &amp; Technology</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="sec-num">01</span>
+          <h2>About</h2>
+          <span class="rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="about-grid">
+          <p class="about-lead" data-reveal>
+            좋은 화면은 예쁜 것보다<br />정확해야 한다고 믿습니다.
+          </p>
+
+          <div class="about-body" data-reveal data-delay="80">
+            <p>
+              안녕하세요, 부산대학교에서 디자인을 공부하는 정아린입니다.
+              디자인을 배우면서 웹프로그래밍에 빠져, 지금은 디자인과 코드 사이에서 작업하고 있습니다.
+            </p>
+            <p>
+              Figma로 구조를 잡고 HTML·CSS·JavaScript로 직접 구현하며, 디자인이 실제로 어떻게
+              동작하는지 확인합니다. 최근에는 HCI 관점에서 사용자의 감성을 측정하고,
+              그 결과를 인터랙티브 프로토타입으로 옮기는 작업에 관심이 있습니다.
+            </p>
+            <ul class="tags" aria-label="관심 키워드">
+              <li>#디자인앤테크놀로지</li>
+              <li>#UI/UX</li>
+              <li>#HCI</li>
+              <li>#Web</li>
+              <li>#Prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toolkit -->
+    <section class="section" id="toolkit">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="sec-num">02</span>
+          <h2>Toolkit</h2>
+          <span class="rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="toolkit-grid">
+          <div class="tool" data-reveal>
+            <h3>Design</h3>
+            <p class="tool-note">구조를 잡고 화면을 그립니다.</p>
+            <ul class="chips">
+              <li>Figma</li>
+              <li>Illustrator</li>
+              <li>Photoshop</li>
+              <li>Prototyping</li>
+              <li>Design System</li>
+            </ul>
+          </div>
+
+          <div class="tool" data-reveal data-delay="80">
+            <h3>Web</h3>
+            <p class="tool-note">직접 만들고 확인합니다.</p>
+            <ul class="chips">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git &amp; GitHub</li>
+              <li>Responsive</li>
+            </ul>
+          </div>
+
+          <div class="tool" data-reveal data-delay="160">
+            <h3>Research</h3>
+            <p class="tool-note">사용자의 반응을 관찰합니다.</p>
+            <ul class="chips">
+              <li>User Interview</li>
+              <li>감성 평가</li>
+              <li>Usability Test</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="sec-num">03</span>
+          <h2>Projects</h2>
+          <span class="rule" aria-hidden="true"></span>
+        </div>
+        <p class="section-note" data-reveal>수업과 개인 작업으로 진행한 세 가지 프로젝트입니다.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="card" data-reveal>
+            <div class="thumb">
+              <div class="mock mock-web" aria-hidden="true">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body">
+                  <div class="mock-hero"></div>
+                  <div class="mock-grid">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span>Web UI</span>
+                <span>2025</span>
+              </div>
+              <h3>웹 UI 디자인</h3>
+              <p class="card-desc">
+                정보 구조를 다시 세우고, 브라우저 위에서 읽히는 레이아웃을 설계한 웹 서비스 UI 프로젝트.
+              </p>
+              <ul class="card-tags">
+                <li>Figma</li>
+                <li>UI Design</li>
+                <li>Web</li>
+              </ul>
+              <span class="card-link is-soon" aria-disabled="true">자세히 보기 · 준비 중</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card" data-reveal data-delay="80">
+            <div class="thumb">
+              <div class="mock mock-research" aria-hidden="true">
+                <div class="mock-bars">
+                  <i style="--h: 36%"></i>
+                  <i style="--h: 64%"></i>
+                  <i style="--h: 48%"></i>
+                  <i style="--h: 82%"></i>
+                  <i style="--h: 58%"></i>
+                  <i style="--h: 72%"></i>
+                </div>
+                <svg class="mock-curve" viewBox="0 0 220 90" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M0,68 C28,68 34,30 64,30 S104,66 128,50 S166,14 220,26" />
+                </svg>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="badge">Research</span>
+                <span>2025</span>
+              </div>
+              <h3>HCI 감성 연구</h3>
+              <p class="card-desc">
+                사용자의 감성 반응을 측정하고, 그 결과를 인터랙티브 프로토타입으로 구현한 연구 프로젝트.
+              </p>
+              <ul class="card-tags">
+                <li>HCI</li>
+                <li>User Research</li>
+                <li>Prototype</li>
+              </ul>
+              <span class="card-link is-soon" aria-disabled="true">자세히 보기 · 준비 중</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card" data-reveal data-delay="160">
+            <div class="thumb">
+              <div class="mock mock-mobile" aria-hidden="true">
+                <span class="notch"></span>
+                <div class="ph-img"></div>
+                <div class="ph-line"></div>
+                <div class="ph-line short"></div>
+                <div class="ph-nav"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span>Mobile UI</span>
+                <span>2024</span>
+              </div>
+              <h3>모바일 UI 디자인</h3>
+              <p class="card-desc">
+                앱의 화면 흐름과 인터랙션을 정리하고, 터치 환경에 맞춰 다듬은 모바일 UI 프로젝트.
+              </p>
+              <ul class="card-tags">
+                <li>Mobile</li>
+                <li>UI Design</li>
+                <li>Prototyping</li>
+              </ul>
+              <span class="card-link is-soon" aria-disabled="true">자세히 보기 · 준비 중</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-card" data-reveal>
+          <div class="section-head">
+            <span class="sec-num">04</span>
+            <h2>Contact</h2>
+          </div>
+          <h2 class="contact-title">같이 만들거나,<br />이야기 나눌 일이 있다면.</h2>
+          <p class="contact-sub">
+            프로젝트 제안, 스터디, 혹은 가벼운 대화도 좋습니다. 메일로 연락 주세요.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:wxxdkfls@gmail.com">
+              wxxdkfls@gmail.com <span aria-hidden="true">↗</span>
+            </a>
+            <button class="btn btn-ghost" id="copyEmail" type="button" data-email="wxxdkfls@gmail.com">
+              이메일 복사
+            </button>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/wxxdkfls-ai" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+              </svg>
+              github.com/wxxdkfls-ai
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> 정아린 · 부산대학교</p>
+      <p class="footer-note">Designed &amp; coded by Arin Jung</p>
+      <a class="to-top" href="#top">맨 위로 <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
